@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item android:title="Edit profile">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/newphoto"
+                    android:icon="@drawable/ic_photo"
+                    android:title="Upload profile photo"/>
+                <item
+                    android:id="@+id/changename"
+                    android:icon="@drawable/ic_event"
+                    android:title="Change name"/>
+                <item
+                    android:id="@+id/changeusername"
+                    android:icon="@drawable/ic_request_approve"
+                    android:title="Change Username"/>
+                <item
+                    android:id="@+id/deleteaccount"
+                    android:icon="@drawable/ic_delete"
+                    android:title="Delete Account"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

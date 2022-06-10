@@ -1,0 +1,56 @@
+buildscript {
+    ext {
+    	build_gradle_version = '7.2.1'
+    }
+    
+    project.ext {
+    	compileSdk = 31
+        buildTools = "31.0.0"
+        appId = "com.macas.nmsc.sict"
+        minSdk = 23
+        targetSdk = 32
+        versionCode = 100
+		versionName = "1.0.0"
+    }
+    
+    repositories {
+    mavenCentral()
+    gradlePluginPortal()
+    	google()
+        mavenLocal()
+    	maven { url "https://jitpack.io" }
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        //maven { url 'https://dl.bintray.com/ppartisan/maven/' }
+        maven { url "https://clojars.org/repo/" }
+        
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$build_gradle_version"
+        classpath 'com.google.gms:google-services:4.3.10'  // Google Services plugin
+        //classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:[0.14.0, 0.99.99]'
+    }
+    
+}
+allprojects {
+    repositories {
+    mavenCentral() 
+    google()
+    mavenLocal()
+    	maven { url "https://jitpack.io" }
+        maven { url 'https://maven.aliyun.com/repository/public/' } 
+        maven { url 'https://maven.aliyun.com/repository/google/' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin/' }
+        maven { url 'https://dl.bintray.com/ppartisan/maven/' }
+        maven { url "https://clojars.org/repo/" }
+        
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+

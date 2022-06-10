@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.macas.nmsc.sict.app-mergeDebugResources-38:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\asusx\\.gradle\\caches\\transforms-3\\5d36bf651a453a6cbc211fbcb0e707b6\\transformed\\appcompat-1.4.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

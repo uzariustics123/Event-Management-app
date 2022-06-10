@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_all_events.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\all_events.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_outline_lock_open_24.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\outline_lock_open_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_settings.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_power_settings.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_power_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_edit_text_round_bg_white.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\edit_text_round_bg_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_request_approve.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_request_approve.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_bg_gradient_bttm.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\bg_gradient_bttm.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_bg_gradient.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\bg_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_plus.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_plus.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_fragment_main_activity.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\fragment_main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_shape_rounded_grey.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\shape_rounded_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_department.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\department.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_event.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\menu_orgs_menu.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\menu\\orgs_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_insert_drive.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_insert_drive.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_chevron_left.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_chevron_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\font_josefin_sans.ttf.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\font\\josefin_sans.ttf"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_event.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\event.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_image_33.jpg.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\image_33.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_activity_onboard.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\activity_onboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_outline_rule_24.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\outline_rule_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_photo.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_notifications_outline.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_notifications_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_arrow_drop_grey.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_arrow_drop_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_menu_bar.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\menu_bar.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_create_event.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\create_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_reg_layout.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\reg_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_motion_toast.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\motion_toast.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_events_fragment_activity.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\events_fragment_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_event_by_section.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\event_by_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_fragment_blank.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\fragment_blank.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_user_profile.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\user_profile.xml"
+    },
+    {
+        "merged": "com.macas.nmsc.sict.app-merged_res-40:/layout_fragment_main_activity.xml.flat",
+        "source": "com.macas.nmsc.sict.app-main-42:/layout/fragment_main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_round_indicator.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\round_indicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_avatar.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_baseline_dark_mode_24.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\baseline_dark_mode_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_transist_act.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\transist_act.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_anim_pager1.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\anim_pager1.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_phone_outline.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_phone_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_your_orgs.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\your_orgs.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_email_outline.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_email_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_material_ic_edit_black_24dp.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\material_ic_edit_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_list_itemholder.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\list_itemholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_orglist_tile.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\orglist_tile.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_event_list_item.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\event_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_fragment_search_event_activity.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\fragment_search_event_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_dns.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_dns.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_person_add.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_person_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_outline_sort_24.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\outline_sort_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_settings_outline.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_settings_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_info.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_banner_list_item.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\banner_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\menu_profile_options.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\menu\\profile_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_account_circle_outline.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_account_circle_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_notifications.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_face.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_face.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_profile_menu_header.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\profile_menu_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_people_outline.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_people_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_menu_dot.png.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\menu_dot.png"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_login_screen.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\login_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_intro_activity.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\intro_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_homedrawer_header.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\homedrawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_edit_text_round_bg_outline.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\edit_text_round_bg_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\menu_menu_nav.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\menu\\menu_nav.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\menu_menu_search_setting.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\menu\\menu_search_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_ic_done.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\ic_done.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_round_edittext_bg.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\round_edittext_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\layout_home_layout.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\layout\\home_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-merged_res-40:\\drawable_outline_checklist_24.xml.flat",
+        "source": "C:\\Users\\asusx\\.gradle\\daemon\\7.4\\com.macas.nmsc.sict.app-main-42:\\drawable\\outline_checklist_24.xml"
+    }
+]

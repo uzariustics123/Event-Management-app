@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:background="#EEEEEE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        app:elevation="0dp" >
+
+        <ImageButton
+            android:id="@+id/bt_close"
+            android:layout_width="?actionBarSize"
+            android:layout_height="?actionBarSize"
+            android:layout_gravity="start|center_vertical"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="10dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/ic_chevron_left"
+            app:tint="@color/grey_900" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" >
+
+        <!-- Your content below appbar right here -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/greetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Getting started"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+       
+
+        <TextView
+            android:id="@+id/errormsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error signing in:"
+            android:textColor="#B71C1C"
+            android:textSize="16sp"
+            android:visibility="gone" />
+            
+             <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            app:startIconDrawable="@drawable/ic_account_circle_outline"
+            app:startIconTint="@color/colorPrimary" >
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="username"
+                android:imeOptions="actionNext"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            app:startIconDrawable="@drawable/ic_account_circle_outline"
+            app:startIconTint="@color/colorPrimary" >
+
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="firstname"
+                android:imeOptions="actionNext"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            app:startIconDrawable="@drawable/ic_account_circle_outline"
+            app:startIconTint="@color/colorPrimary" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/lastname"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="lastname"
+                android:imeOptions="actionNext"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            app:startIconDrawable="@drawable/ic_email_outline"
+            app:startIconTint="@color/colorPrimary" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="email"
+                android:imeOptions="actionNext"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            app:boxBackgroundMode="none"
+            app:hintEnabled="false"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorPrimary"
+            app:startIconDrawable="@drawable/outline_lock_open_24"
+            app:startIconTint="@color/colorPrimary" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:hint="password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+                    android:padding="0dp"
+                    app:startIconDrawable="@drawable/outline_lock_open_24"
+                    app:hintEnabled="false"
+                    app:startIconTint="@color/colorPrimary"
+                    app:passwordToggleTint="@color/colorPrimary"
+                    app:boxBackgroundMode="none"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/transparent"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					app:passwordToggleEnabled="true">
+                <com.google.android.material.textfield.TextInputEditText
+                 android:id="@+id/cnfrmpassword"
+                android:background="@drawable/edit_text_round_bg_white"
+                android:padding="20dp"
+                android:inputType="textPassword"
+                android:hint="confirm password"
+                android:textColor="@color/colorPrimary"
+                android:singleLine="true"
+                android:layout_width="330dp"
+                android:imeOptions="actionDone"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:id="@+id/signupbtn"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_width="250dp"
+        android:text="SIGN UP"
+        android:elevation="5dp"
+        android:textColor="#ffffff"/>
+         </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+<com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/mlottie"
+                android:layout_gravity="bottom|right"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:scaleType="fitEnd"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
