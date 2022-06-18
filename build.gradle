@@ -1,0 +1,81 @@
+plugins {
+    id 'com.android.application'
+    //id 'com.onesignal.androidsdk.onesignal-gradle-plugin'
+
+    id 'com.google.gms.google-services'  // Google Services plugin
+    // Other plugins here if pre-existing
+}
+
+ 
+android {
+    compileSdkVersion rootProject.ext.compileSdk
+    buildToolsVersion rootProject.ext.buildTools
+
+    defaultConfig {
+        applicationId rootProject.ext.appId
+        minSdkVersion rootProject.ext.minSdk
+        targetSdkVersion rootProject.ext.targetSdk
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        
+        vectorDrawables.useSupportLibrary = true
+    }
+    //aaptOptions { cruncherEnabled = false }
+    buildFeatures {
+    	viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        
+    }
+    
+    compileOptions {
+		 sourceCompatibility JavaVersion.VERSION_11
+     	targetCompatibility JavaVersion.VERSION_11
+	}
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.2.0'
+    //implementation 'androidx.work:work-runtime:2.7.1';
+    implementation 'com.airbnb.android:lottie:5.0.3'
+    implementation 'com.github.MoeidHeidari:banner:1.04'
+    implementation 'com.github.bumptech.glide:glide:4.13.0'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    implementation 'net.steamcrafted:load-toast:1.0.12'
+    //implementation 'com.github.Spikeysanju:MotionToast:1.4'
+    implementation 'com.github.lazy-pr0grammer:MotionToast-Easiotic:1.0'
+    implementation 'com.moos:Material-ProgressView:1.0.6'
+    // Import the Firebase BoM
+  implementation platform('com.google.firebase:firebase-bom:29.3.1')
+
+  implementation 'com.google.firebase:firebase-analytics'
+  implementation 'com.google.firebase:firebase-auth'
+  implementation 'com.google.firebase:firebase-messaging'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation "com.leinardi.android:speed-dial:3.3.0"
+    implementation 'androidx.navigation:navigation-fragment:2.4.2'
+    implementation 'androidx.navigation:navigation-ui:2.4.2'
+    //implementation 'com.onesignal:OneSignal:4.0.0'
+  //implementation 'com.onesignal:OneSignal:[4.0.0, 4.99.99]'
+  
+  //debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.9.1'
+}
+
+
+
+
+
+
+
+

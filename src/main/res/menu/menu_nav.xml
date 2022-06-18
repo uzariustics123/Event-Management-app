@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:title="Main">
+        <menu>
+            <group android:checkableBehavior="single" >
+            <item
+                    android:id="@+id/events"
+                    android:icon="@drawable/ic_event"
+                    android:title="Event"/>
+                <item
+                    android:id="@+id/dashboard"
+                    android:icon="@drawable/ic_dns"
+                    android:title="Dashboard"/>
+                <item
+                    android:id="@+id/usrequests"
+                    android:icon="@drawable/ic_request_approve"
+                    android:title="Request"/>
+                <item
+                    android:id="@+id/users"
+                    android:icon="@drawable/ic_people_outline"
+                    android:title="Users"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Account">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_face"
+                    android:title="Profile"/>
+                    <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_settings_outline"
+                    android:title="Settings"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Other">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_info"
+                    android:title="About"/>
+            </group>
+        </menu>
+    </item>
+    <!--
+        <item android:title="Main">
+	<group android:checkableBehavior="single">
+    <item android:icon="@drawable/ic_dns" android:id="@+id/dashboard" android:title="Dashboard" />
+	</group>
+	<item>
+		<group>
+	<item android:icon="@drawable/ic_event" android:id="@+id/events" android:title="Event" />
+	
+	
+	
+		</group>
+        </item>
+	<item android:title="Account">
+    </item>
+    -->
+
+</menu>

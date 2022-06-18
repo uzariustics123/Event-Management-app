@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+       
+        android:padding="8dp">
+        
+        <TextView
+            android:id="@+id/actTitles"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Manage your Events within your Smartphone"
+            android:textColor="@color/grey_500"
+            android:layout_marginTop="100dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager1"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+        
+    
+    </LinearLayout>
+    
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:backgroundTint="#ffffff"
+        android:gravity="center"
+        android:id="@+id/fabprev"
+        android:layout_gravity="bottom|left|center"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:text="Prev"
+        android:textColor="#424242"
+        android:textStyle="bold"/>
+    
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:backgroundTint="@color/colorPrimary"
+        android:gravity="center"
+        android:id="@+id/fabnxtstrt"
+        android:layout_gravity="bottom|right|center"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:transitionName="nextTrans"/>
+    
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

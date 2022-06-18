@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toplayout"
+        android:layout_width="match_parent"
+        android:elevation="0dp"
+        app:elevation="0dp"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textStyle="bold"
+            android:textColor="@color/grey_60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_mlarge"
+            android:layout_marginRight="@dimen/spacing_mlarge"
+            android:layout_marginBottom="@dimen/spacing_middle"
+            android:text="Events Management"
+            app:layout_scrollFlags="enterAlways|scroll"
+           />
+<com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:background="@android:color/transparent"
+            android:paddingLeft="@dimen/spacing_large"
+            android:paddingRight="@dimen/spacing_large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@android:color/transparent"
+            app:tabGravity="fill"
+            app:tabIndicator="@drawable/shape_rounded_grey"
+            app:tabIndicatorColor="@color/overlay_dark_5"
+            app:tabIndicatorGravity="center"
+            app:tabIndicatorHeight="@dimen/spacing_xlarge"
+            app:tabMinWidth="100.0dip"
+            app:tabMode="scrollable"
+            app:tabRippleColor="@android:color/transparent"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:tabTextColor="@color/grey_40"/>
+              
+
+    </LinearLayout>
+
+    
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <com.google.android.material.textfield.TextInputLayout
+					android:id="@+id/tilsearch"
+                    android:padding="0dp"
+                    app:startIconDrawable="@drawable/abc_ic_search_api_material"
+                    app:startIconTint="@color/grey_900"
+                    app:endIconTint="@color/grey_900"
+                    android:layout_gravity="center"
+                    app:hintEnabled="false"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    app:boxBackgroundMode="none"
+                    android:background="@android:color/transparent"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+             <com.google.android.material.textfield.TextInputEditText
+                 android:singleLine="true"
+                 android:id="@+id/searchedtxt"
+                android:background="@drawable/round_edittext_bg"
+                android:padding="18dp"
+                android:cursorVisible="false"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionSearch"
+                android:hint="Search event"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+        
+    
+
+</LinearLayout>

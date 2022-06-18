@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootsitem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <androidx.cardview.widget.CardView
+        android:background="?selectableItemBackground"
+        android:id="@+id/carditem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp" >
+
+            <TextView
+                android:id="@+id/eventname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:textColor="@color/grey_60"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/participants"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Body"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                
+                
+                <com.moos.library.HorizontalProgressView
+                android:id="@+id/progressView_horizontal"
+                android:layout_width="match_parent"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:layout_height="25dp"
+                app:animateType="AccelerateDecelerateInterpolator"
+                app:end_color="@color/colorPrimary"
+                app:end_progress="80"
+                app:isFilled="false"
+                app:start_progress="0"
+                app:isTracked="true"
+                app:progressTextSize="12sp"
+                app:start_color="@color/colorPrimaryDark"
+                app:trackColor="@color/colorControlHighlight"
+                app:track_width="8dp" />
+                <TextView
+                android:id="@+id/attendees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attendees"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_40" />
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+ <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Evaluation"
+                    app:chipBackgroundColor="@android:color/transparent"
+                    app:chipStrokeColor="@color/grey_10"
+                    app:chipStrokeWidth="1.0dip"
+                    style="@style/Widget.MaterialComponents.Chip.Choice" />
+                     <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    app:chipBackgroundColor="@android:color/transparent"
+                    app:chipStrokeColor="@color/grey_10"
+                    app:chipStrokeWidth="1.0dip"
+                    style="@style/Widget.MaterialComponents.Chip.Choice" />
+                     <com.google.android.material.chip.Chip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    app:chipBackgroundColor="@android:color/transparent"
+                    app:chipStrokeColor="@color/grey_10"
+                    app:chipStrokeWidth="1.0dip"
+                    style="@style/Widget.MaterialComponents.Chip.Choice" />
+            
+        </LinearLayout>
+        
+        <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Caption"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textColor="@color/grey_40" />
+        </LinearLayout>
+
+        
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

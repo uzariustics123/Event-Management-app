@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:visibility="gone"
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:scrollbars="none"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollingCache="true"
+        android:fillViewport="true"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+        
+        <!-- Your content below appbar right here -->
+          <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/profpic"
+                    android:transitionName="transPic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="300.0dip"
+                    android:src="@drawable/image_33"
+                    android:scaleType="centerCrop" />
+                <View
+                    android:background="@drawable/bg_gradient"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80.0dip"
+                    android:rotation="180.0" />
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@id/toolbar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?actionBarSize"
+                    android:layout_marginTop="@dimen/spacing_mxlarge"
+                    app:contentInsetStartWithNavigation="0.0dip"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                    app:theme="@style/Toolbar.Light" />
+            </RelativeLayout>
+              <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_mlarge"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_marginRight="@dimen/spacing_mlarge">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:inputType="textCapSentences"
+                    android:id="@+id/profname"
+                    android:transitionName="transName"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textStyle="bold"
+                    android:textColor="@color/grey_80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User M." />
+                <TextView
+                    android:id="@+id/profcourseyr"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/grey_40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BSIT - 1st year" />
+            </LinearLayout>
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="0.0dip"
+                android:layout_weight="1.0" />
+                  <ImageButton
+                      android:id="@+id/editbtn"
+                      android:background="?selectableItemBackgroundBorderless"
+                android:layout_width="?actionBarSize"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/material_ic_edit_black_24dp"
+                app:tint="@color/grey_60" />
+            
+        </LinearLayout>
+        <View
+            android:background="@color/grey_5"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:layout_marginBottom="@dimen/spacing_large" />
+            
+             <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_mlarge"
+            android:layout_marginRight="@dimen/spacing_mlarge">
+            <ImageView
+                android:layout_width="@dimen/spacing_mxlarge"
+                android:layout_height="@dimen/spacing_mxlarge"
+                app:srcCompat="@drawable/outline_rule_24"
+                app:tint="@color/grey_60" />
+            <View
+                android:layout_width="@dimen/spacing_large"
+                android:layout_height="0.0dip" />
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/deep_orange_600"
+                android:background="?selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 Absents" />
+            <View
+                android:layout_width="30.0dip"
+                android:layout_height="0.0dip" />
+            <ImageView
+                android:layout_width="@dimen/spacing_mxlarge"
+                android:layout_height="@dimen/spacing_mxlarge"
+                app:srcCompat="@drawable/outline_checklist_24"
+                app:tint="@color/grey_60" />
+            <View
+                android:layout_width="@dimen/spacing_large"
+                android:layout_height="0.0dip" />
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/green_600"
+                android:background="?selectableItemBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14 Attended" />
+        </LinearLayout>
+           <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="?selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_mlarge"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_mlarge">
+            <ImageView
+                android:layout_width="@dimen/spacing_mxlarge"
+                android:layout_height="@dimen/spacing_mxlarge"
+                app:srcCompat="@drawable/ic_email_outline"
+                app:tint="@color/grey_60" />
+            <View
+                android:layout_width="@dimen/spacing_large"
+                android:layout_height="0.0dip" />
+            <TextView
+                android:id="@+id/profEmail"
+                android:transitionName="transEmail"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="elizabeth.m@student.com" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:background="?selectableItemBackground"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/spacing_mlarge"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:layout_marginRight="@dimen/spacing_mlarge">
+            <ImageView
+                android:layout_width="@dimen/spacing_mxlarge"
+                android:layout_height="@dimen/spacing_mxlarge"
+                app:srcCompat="@drawable/ic_phone_outline"
+                app:tint="@color/grey_60" />
+            <View
+                android:layout_width="@dimen/spacing_large"
+                android:layout_height="0.0dip" />
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0973 7637 2663" />
+        </LinearLayout>
+        
+            </LinearLayout>
+        
+        
+    </androidx.core.widget.NestedScrollView>
+  <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationView"
+            android:paddingTop="@dimen/spacing_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:behavior_hideable="true"
+            app:headerLayout="@layout/profile_menu_header"
+            app:itemIconTint="@color/grey_60"
+            app:itemTextColor="@color/grey_90"
+            app:layout_behavior="@string/bottom_sheet_behavior"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
